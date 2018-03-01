@@ -1,0 +1,167 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+a{
+	text-decoration:none;
+	color:#808080;
+}
+/*头部*/
+body{
+	background-image:url(bg.jpg);
+	background-repeat:no-repeat;
+	background-position:0px 50px;
+	background-size:1534px 550px;
+}
+.head{
+	border: 1px solid gray;
+	height: 50px;
+	background-color: #dbdbdb;
+}
+.icon img{
+	width: 40px;
+	height: 40px;
+	padding-left: 50px;
+	margin-top: 5px;
+}
+/*主体*/
+.body{
+	
+	margin: 0 auto;
+	margin-top: 10px;
+	width: 1200px;
+	height:600px;
+	font-family:微软雅黑,宋体;
+	position:relative;
+}
+.body .picture{
+	float: left;
+	margin-top: 140px;
+	margin-left: 150px;
+	
+}
+.body .log{
+	float: right;
+	margin-top: 140px;
+	margin-right: 180px;
+	border: 1px solid  #FCFCFC;
+	height: 350px;
+	width: 300px;
+	position:absolute;
+	left:100px;
+	top:-50px;
+	background-color:rgb(255,255,249);
+}
+.title{
+	display:inline-block;
+	font-size:18px;
+	color:#494949;
+	margin-left:15px;
+	margin-top:20px;	
+	width:246px;
+	border-bottom:1px solid #E2E2E2;
+	padding-bottom:5px;
+	margin-bottom:10px;
+}
+hr{
+	width:240px;
+	display：inline-block;
+	margin-left:15px;
+	color:#CACACA;
+}
+#username,#password{
+	width:230px;
+	margin-left:25px;
+	height:35px;
+	margin-top:10px;
+	font-size:16px;
+	font-size:14px;
+	border:1px solid #BEBEBE;
+	padding-left:30px;
+}
+#username{
+	background-image:url(lock.png);
+	background-repeat:no-repeat;
+	background-position:5px 7px;
+	background-size:20px;
+}
+#password{
+	background-image:url(key.png);
+	background-repeat:no-repeat;
+	background-position:7px 5px;
+	background-size:14px;
+}
+#username:hover,#password:hover
+{
+	border:1px solid #5088C7;
+}
+.remenber{
+	margin-top:8px;
+	margin-left:30px;
+	height:12px;
+}
+.rlog{
+	color:#333;
+	font-size:12px;
+}
+.forget_pwd{
+	display:inline-block;
+	margin-left:70px;
+	font-size:14px;
+	
+}
+.log_button{
+	display:inline-block;
+	text-align:center;
+	line-height:40px;
+	margin-left:28px;
+	height:40px;
+	width:250px;
+	margin-bottom:20px;
+	margin-top:10px;
+	font-size:20px;
+	color:#FBFBFB;
+	background-color:#FF8000;
+	border:none;
+}
+.log_button:hover{
+	background-color:#FD6A09;
+}
+.register{
+	position:absolute;
+	bottom:5px;
+	right:5px;
+	font-size:14px;
+}
+.register a{
+	color:#2858FF;
+}
+.three{
+	display:inline-block;
+	margin-left:25px;
+	margin-top:10px;
+	font-size:14px;
+}
+/*底部*/
+.foot{
+	height: 30px;
+	line-height: 30px;
+	width: 1534px;
+	text-align: center;
+	clear:both;
+	margin-top:50px;
+	font-size:13px;
+	color:#666;	
+	background-color: #FCFCFC;
+	padding:20px 0px;
+	
+}
+.foot a{
+	text-decoration:none;
+	color:#666;
+}
+.ww{
+	padding-bottom:35px;
+	position:absolute;
+	bottom:45px;
+}

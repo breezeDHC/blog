@@ -1,0 +1,215 @@
+/*首页行菜单栏*/
+body{
+	font-family:微软雅黑;
+}
+.box{
+	position:absolute;
+	top:15px;
+	right:230px;
+}
+.box a{
+	color:#666;
+}
+body .title1{
+	margin-bottom:10px;
+	overflow:hidden;
+	height:55px;line-height:55px;
+}
+body .title1 li{
+	float:left;
+	list-style:none;
+	padding-left:20px;
+	padding-right:20px;
+	font-size:20px;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	margin:10px 20px 30px 0px;
+	background-color:#E4DDC7;
+	color:#979266;
+}
+
+body .title1 li:hover{
+	color:white;
+	background-color:red;
+}
+body .title1 .li1{
+	margin-left:100px;
+	
+}
+body .title1 .li2{
+	background-color:red;
+	color:white;
+}
+/*介绍*/
+body .introduce{
+	width:1534px;
+	background-image:url(bg.jpg);
+	height:360px;
+	position:relative;
+}
+.introduce .export_img{
+	margin-left:100px;
+	margin-top:50px;
+	height:240px;
+}
+.introduce p{
+	width:550px;	
+	display:inline-block;
+	color: #F5F5F5;
+	margin-left:30px;
+	line-height:30px;
+}
+.introduce p .aa{
+	display:block;
+	font-size:30px;
+}
+.introduce p .high{
+	color:white;
+	font-style: inherit;
+}
+.introduce .new_export{
+	display:inline-block;
+	background:white;
+	height:180px;
+	position:absolute;
+	top:50px;
+	right:200px;
+	padding:50px 30px;
+}
+.introduce .new_export span{
+	display:block; 
+	color: #333;
+}
+.introduce .new_export img{
+	padding-bottom:20px;
+	width:180px;
+	border-bottom:1px dotted #D3D3D3;
+	margin-top:20px;
+}
+.introduce .new_export a{
+	display:block;
+	background:#2d8eb7;
+	width:100px; 
+	color:white;
+	height:40px;
+	line-height:40px;
+	padding:4px 20px;
+	margin:20px 20px;
+}
+.introduce .new_export a:hover{
+	background-color:#44add9;
+	color: #DEF8FA;
+}
+/*专家推荐*/
+.export_recommend{
+	width:1320px;
+	margin:0 auto;	
+}
+.export_recommend>span{
+	display:block;
+	margin:30px 0px 15px 50px;
+	font-size:20px;
+	color:#666;
+}
+.export_recommend .export{
+	width:280px;
+	height:300px;
+	border:1px solid  #CFD7EF;
+	margin:40px 10px 20px 30px;
+	float:left;
+	background-color:#f8fafb;
+}
+.export_recommend .export img{
+	margin:20px 0px 5px 90px;	
+	width:90px;
+}
+.export_recommend .export .username{
+	display:inline-block;
+	margin-left:115px;
+	color:#333;
+	margin-top:10px;
+	font-size:13px;
+}
+.export_recommend .export .area{
+	display:inline-block;
+	color: #A7A7A7;
+	margin-left:70px;
+	margin:10px 0px 10px 70px;
+	font-size:13px;
+	
+}
+.export_recommend .export .num{
+	display:inline-block;
+	color:#2d8eb7;;
+	font-size:22px;
+}
+.export_recommend .export .number{
+	margin-left:66px;
+}
+.export_recommend .export .essay_num{
+	display:inline-block;
+	color: #5A5A5A;
+	font-size:13px;
+}
+.export_recommend .export .essay_number{
+	margin-left:66px;
+}
+.export_recommend .export .button{
+	margin-left:100px;
+	width:80px;
+	height:30px;
+	font-size:15px;
+	color:#2d8eb7;
+	background-color:#f8fafb;
+	border:1px solid #2d8eb7;
+	border-radius:20px;
+	margin-top:15px;
+}
+.export_recommend .export .button:hover{
+	color:white;
+	background-color:#2d8eb7;
+}
+/*全部专家*/
+.category{
+	list-style:none;
+	widows:1200px;
+	margin-top:760px;
+	margin-bottom:10px;
+}
+.category a{
+	margin-left:60px;
+	color:#1B92D1;
+	font-size:18px;	
+}
+.export_recommend .category span{
+	display:inline-block;
+	margin-left:30px;
+	color:#333;
+}
+.export_recommend .category span:hover{
+	color:red;
+}
+.export_recommend .category #aaa{
+	font-weight:bold;
+}
+/*页码*/
+.page{
+	margin-left:490px;
+	margin-top:1100px;
+	margin-bottom:70px;
+}
+.page .q1{
+	color: #8F8F8F;
+}
+.page .q2{
+	display:inline-block;
+	border:1px solid #C6C6C6;
+	padding:5px;
+}
+.page .qq{
+	background-color:red;
+}
+.page .q2:hover{
+	background-color:#D22000;
+}

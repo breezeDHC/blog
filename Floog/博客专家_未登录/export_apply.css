@@ -1,0 +1,136 @@
+/*首页行菜单栏*/
+body{
+	font-family:微软雅黑;
+}
+.box{
+	position:absolute;
+	top:15px;
+	right:230px;
+}
+.box a{
+	color:#666;
+}
+body .title1{
+	margin-bottom:10px;
+	overflow:hidden;
+	height:55px;line-height:55px;
+}
+body .title1 li{
+	float:left;
+	list-style:none;
+	padding-left:20px;
+	padding-right:20px;
+	font-size:20px;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	margin:10px 20px 30px 0px;
+	background-color:#E4DDC7;
+	color:#979266;
+}
+
+body .title1 li:hover{
+	color:white;
+	background-color:red;
+}
+body .title1 .li1{
+	margin-left:100px;
+	
+}
+body .title1 .li2{
+	background-color:red;
+	color:white;
+}
+.a1{
+	margin-left:210px;
+	margin-top:40px;
+	margin-bottom:15px;
+}
+.a1 a{
+	color:#404040;
+	font-size:14px;
+}
+body .list{
+	width:1120px;
+	margin:0 auto;
+	border:1px solid #E6E6E6;
+	overflow:hidden;
+}
+body .list h2{
+	text-align:center;
+	margin:35px 0px;
+}
+body .list .form{
+	margin-left:50px;
+	margin-right:50px;
+	color:#383838;
+	line-height:25px;
+	font-size:14px;
+}
+body .list .form h4{
+	margin-bottom:5px;
+}
+body .list .form .div1{
+	float:left;
+	text-align:right;
+	color:#777;
+	font-weight:300px;
+	width:80px;
+	line-height:40px;
+	font-size:14px;
+	overflow:hidden;
+}
+body .list .form .div2{
+	float:left;
+	line-height:40px;
+	margin-left:15px;
+	overflow:hidden;
+}
+body .list .form .div2 #hint{
+	font-size:12px;
+	display:inline-block;
+	margin-left:70px;
+}
+body .list .form .div2 .hint
+{
+	display:inline-block;
+	margin-left:30px;
+}
+body .list .form .div2 input,select{
+	width:250px;
+	height:25px;
+	border:1px solid #B9B9B9;
+}
+#picture{
+	width:100px;
+	height:25px;
+}
+textarea{
+	width:550px;
+	height:140px;
+	border:1px solid #B9B9B9;
+}
+#mail{
+	width:550px;
+}
+#submit{
+	display:block;
+	clear:both;
+	width:140px;
+	height:40px;
+	font-size:18px;
+	background-color:#F73E00;
+	border:none;
+	color:white;
+	margin-left:300px;
+	margin-bottom:50px;
+}
+#submit:hover{
+	background-color:#E62200;
+}
+textarea:hover{
+	border:1px solid #137DFF;  
+}
+body .list .form .div2 input:hover{
+	border:1px solid #137DFF; 
+}

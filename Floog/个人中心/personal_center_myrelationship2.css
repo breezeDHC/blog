@@ -1,0 +1,76 @@
+.menu .li3{
+	background-color:white;
+	
+	border:1px solid #E5E5E5;
+}
+.left .title{
+	padding-top:40px;
+	padding-bottom:5px;
+	border-bottom:1px dotted #CCCCCC;
+	margin-bottom:20px;
+	position:relative;
+}
+.left .title li{
+	float:left;
+	margin-right:30px;
+	border-right:1px solid #E0E0E0;
+	padding-right:30px;
+	color:black;
+}
+.left .title .li3
+{
+	border:none;
+}
+.left .title .li2{
+	color:#0F6FFF;
+}
+.left .title input{
+	margin-left:150px;
+	width:250px;
+	height:25px;
+	position:absolute;
+	top:35px;
+	right:50px;
+	color:#999;
+	border:1px solid #CCC;
+	background-image:url(title/search.png);
+	background-position:220px 3px;
+	background-size:18px;
+	background-repeat:no-repeat;
+}
+.user{
+	width:284px;
+	height:120px;
+	border:1px solid #CCC;
+	position:relative;
+	margin:10px 10px 10px 20px;
+	float:left;
+}
+.user .username {
+	border-bottom:1px solid #CCC;	
+}
+.user .username img{
+	width:50px;
+	margin:15px 10px 5px 30px;
+}
+.user .username a{
+	position:absolute;
+	top:30px;
+	left:95px;
+	color:black;
+	font-weight:900;
+}
+.user input{
+	border:none;
+	width:100px;
+	height:25px;
+	padding-left:17px;
+	margin:10px 0px 0px 20px;
+	background-image:url(mail.png);
+	background-repeat:no-repeat;
+	background-position:8px 4px;
+	background-color:#EAEAEA;
+}
+.left{
+	padding-bottom:40px;
+}

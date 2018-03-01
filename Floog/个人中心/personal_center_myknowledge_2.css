@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+.menu .li1{
+	background-color:white;
+	border-bottom:1px solid  #F5F5F5;
+	border-top:1px solid #E4E4E4;
+	border-left:1px solid #E4E4E4;
+}
+.left .cate{
+	list-style:none;
+	overflow:hidden;
+	margin-left:20px;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+.left .cate li{
+	float:left;
+	font-size:17px;
+	color:#666;
+	font-family:微软雅黑;
+	margin-top:5px;
+	margin-left:4px;
+	margin-right:5px;
+	padding:5px 20px;
+	background:#E0EDBA;
+}
+.left .cate .li2{
+	color:#4469FF;
+}
+.left .cate .li1:hover{
+	color:#4469FF;
+}
+.left .left_div1 .el{
+	height:100px;
+	position:relative;
+}
+.left .left_div1 .el .collect_title{
+	color: #4472F9;
+	width:300px;
+	height:50px;
+	font-family:微软雅黑;
+	display:inline-block;
+	margin-left:20px;
+	margin-top:42px;
+}
+.odd{
+	background-color: #F7FDFA;
+}
+.left .left_div1 .el .collect_time{
+	position:absolute;
+	right:100px;
+	top:43px;
+	font-size:14px;
+	color:#999;
+}
+.left .left_div1 .el .image{
+	width:80px;
+	height:40px;
+	position:absolute;
+	right:10px;
+	top:41px;
+}
+.left .left_div1 .el .image img{
+	width:18px;
+}

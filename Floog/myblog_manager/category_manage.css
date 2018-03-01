@@ -1,0 +1,92 @@
+.even a,.odd a{
+	color:#006ADF;;
+}
+.div3{
+	margin-top:30px;
+}
+.div3_1{
+	margin-top:10px;
+	height:30x;
+	line-height:30px;
+	font-size:14px;
+	font-family:微软雅黑;
+	border-bottom:1px solid #666;
+}
+#category_manage{
+	color:#000;
+	font-size:18px;
+	background-color:#F6F6F6;
+	border-bottom:1px solid #FFF;
+}
+.wz,.cz_ctg,.px{
+	display:inline-block;
+	margin-right:20px;
+	
+}
+.wz{
+	padding-left:650px;
+}
+.cz_ctg{
+	padding-left:30px;
+	margin-right:30px;
+	margin-left:30px;
+	margin-right:80px;
+}
+.odd,.even{
+	position:relative;
+	height:50px;
+	line-height:40px;
+}
+.odd:hover,.even:hover{
+	background-color:#F0EBBF;
+}
+.odd a,.even a{
+	font-size:13px;
+}
+.even{
+	background-color:#E4E4E4;
+}
+
+.div3_2{
+	font-size:12px;
+	position:relative
+}
+.wz_num,.cz_ctg_detail,.up{
+	display:inline-block;
+	
+}
+.wz_num{
+	position:absolute;
+	right:300px;
+}
+.cz_ctg_detail{
+	position:absolute;
+	right:130px;
+}
+.up{
+	position:absolute;
+	right:47px;
+}
+.first,.last{
+	position:absolute;
+	right:66px;
+}
+.div3_3{
+	margin-top:30px;
+}
+.new_category{
+	width:400px;
+	height:30px;
+}
+.new_category:hover{
+	border:1px solid #03F;
+}
+.add{
+	font-size:16px;
+	width:150px;
+	height:36px;
+	background-color:#0069EA;
+}
+.add:hover{
+	background-color:#4864FF;
+}

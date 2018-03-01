@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* CSS Document */
+
+.menu .li1{
+	background-color:white;
+	border-bottom:1px solid  #F5F5F5;
+	border-top:1px solid #E4E4E4;
+	border-left:1px solid #E4E4E4;
+}
+.left .cate{
+	list-style:none;
+	overflow:hidden;
+	margin-left:20px;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+.left .cate li{
+	float:left;
+	font-size:17px;
+	color:#666;
+	font-family:微软雅黑;
+	margin-top:5px;
+	margin-left:4px;
+	margin-right:5px;
+	padding:5px 20px;
+	background-color:#E0EDBA;
+}
+.left .cate .li1{
+	color: #4469FF;
+}
+.left .cate .li2:hover{
+	color: #4469FF;
+}
+.left_div1{
+	overflow:hidden;
+}
+.left .category{
+	float:left;
+	width:180px;
+	margin-top:5px;
+}
+.left .category_title{
+	display:inline-block;
+	width:175px;
+	padding-left:5px;
+	padding-bottom:2px;
+	background-color: #F9F9EC;
+	font-family:微软雅黑;
+	font-size:15px;
+	height:25px;
+	line-height:25px;
+	text-indent:0.5em;
+	color: #464646;
+}
+.left .category ul{
+	margin-left:20px;
+	margin-top:10px;
+	margin-bottom:20px;
+}
+.left .category ul a{
+	color:#EAB773;
+	font-size:14px;
+}
+.left .category ul li{
+	margin-top:5px;
+}
+.left .essay_list{
+	float:right;
+	width:750px;
+	border:2px solid #CCC;
+	margin-top:5px;
+}
+.left .essay_list .essay .myblog_title{
+	display:inline-block;
+	padding-top:30px;
+	margin-left:20px;
+	font-family:微软雅黑;
+	font-size:20px;
+	color:#333;
+}
+.left .essay_list .essay{
+	position:relative;
+	height:80px;
+}
+.left .essay_list .even{
+	background-color: #F7FDFA;
+}
+.left .essay_list .essay .myblog_title{
+	font-size:14px;
+	color: #4472F9;
+}
+.left .essay_list .essay .time{
+	display:inline-block;
+	color:#999;
+	position:absolute;
+	top:30px;
+	width:100px;
+	right:110px;
+}
+
+.left .essay_list .essay .image{
+	position:absolute;
+	right:40px;
+	bottom:28px;
+	width:60px;
+	padding-top:5px;
+}
+.left .essay_list .essay img{
+	width:16px;
+	margin-right:5px;
+}
+.foot{
+	height: 30px;
+	line-height: 30px;
+	width: 1534;
+	background-color: #dbdbdb;
+	border: 1px solid gray;
+	text-align: center;
+	clear:both;
+}

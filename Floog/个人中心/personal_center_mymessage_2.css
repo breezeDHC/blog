@@ -1,0 +1,74 @@
+.li5{
+	background-color:white;
+}
+.li5{
+	border:1px solid #F0F0F0;
+}
+.left .title a{
+	display:inline-block;
+	padding:5px 30px;
+	color:black;
+}
+.left .title{
+	border-bottom:1px solid #DEDEDE;
+	position:relative;
+	margin-bottom:20px;
+	padding-top:20px;
+}
+.left .title .a3{
+	border:1px solid  #DEDEDE;
+	border-bottom:none;
+}
+.left .title .a1{
+	position:absolute;
+	bottom:0px;
+	left:10px;
+}
+.left .title .a2
+{
+	position:absolute;
+	bottom:0px;
+	left:110px;
+}
+.left .title .a3{
+	position:absolute;
+	left:230px;
+	bottom:0px;
+}
+.ttt{
+	position:absolute;
+	top:-5px;
+	left:-3px;
+	width:952px;
+	height:20px;
+	background-color:#E8E8E8;
+}
+/*内容*/
+.content{
+	height:600px;
+}
+.content .span1{
+	display:inline-block;
+	margin:10px 0px;
+	margin-left:30px;
+	padding:0px 10px;
+	font-size:13px;
+}
+.content a{
+	display:inline-block;
+	margin:10px 0px;
+	padding:0px 10px;
+	border-left:1px solid #333;
+	color:#0977FF;
+	font-size:13px;
+}
+.content .set{
+	width:20px;
+	margin-left:530px;
+}
+.content .none{
+	position:absolute;
+	left:400px;
+	top:400px;
+	color:#7E7E7E;
+}

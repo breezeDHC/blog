@@ -1,0 +1,72 @@
+.sub_title{
+	display:inline-block;
+	font-size:12px;
+	color:#666;
+	margin-bottom:3px;
+}
+.topic{
+	width:600px;
+	height:20px;
+	margin-top:5px;
+	margin-bottom:15px;
+}
+
+#write_essay{
+	color:#000;
+	font-size:18px;
+	background-color:#F6F6F6;
+	border-bottom:1px solid #FFF;
+}
+select{
+	height:23px;
+	margin-top:10px;
+}
+.div2{
+	margin-bottom:20px;
+}
+.textarea1{
+	height:500px;
+	width:990px;
+	margin-top:5px;
+	margin-bottom:10px;
+}
+.category{
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.detail{
+	display:inline-block;
+	margin-right:50px;
+}
+.textarea2{
+	height:150px;
+	width:990px;
+	margin-top:5px;
+	margin-bottom:10px;
+}
+.hint{
+	font-size:14px;
+	color:#333;
+	display:inline-block;
+	margin-top:5px;
+	margin-left:40px;
+	margin-bottom:20px;
+}
+.hr{
+	height:5px;
+	color:red;
+	margin-bottom:10px;
+}
+.div4{
+	width:400px;
+	height:50px;
+	margin:0 auto;
+	margin-top:30px;
+}
+.div4 input{
+	height:30px;
+	width:80px;
+	margin-right:15px;
+	margin-left:15px;
+	background-color:#B0B436;
+}

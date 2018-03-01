@@ -1,0 +1,160 @@
+.li5{
+	background-color:white;
+}
+.li5{
+	border:1px solid #F0F0F0;
+}
+.left .title a{
+	display:inline-block;
+	padding:5px 30px;
+	color:black;
+}
+.left .title{
+	border-bottom:1px solid #DEDEDE;
+	position:relative;
+	margin-bottom:20px;
+	padding-top:20px;
+}
+.left .title .a1{
+	border:1px solid  #DEDEDE;
+	border-bottom:none;
+}
+.left .title .a1{
+	position:absolute;
+	bottom:0px;
+	left:10px;
+}
+.left .title .a2
+{
+	position:absolute;
+	bottom:0px;
+	left:110px;
+}
+.left .title .a3{
+	position:absolute;
+	left:230px;
+	bottom:0px;
+}
+.ttt{
+	position:absolute;
+	top:-5px;
+	left:-3px;
+	width:952px;
+	height:20px;
+	background-color:#E8E8E8;
+}
+/*left*/
+.left .div1{
+	width:300px;
+	height:650px;
+	border:1px solid #E4E4E4;
+	float:left;
+}
+.left .div1 a{
+	display:inline-block;
+	font-size:14px;
+	color:#333;
+	margin:10px 20px;
+}
+.left .div1 .input1{
+	width:300px;
+	height:40px;
+	border:1px solid #CCC;
+	border-left:none;
+	border-right:none;
+	border-bottom:none;
+	color: #666;
+}
+.left .div1 .div1_1{
+	height:40px;
+	background-color:#EFEFEF;
+	line-height:40px;
+	font-size:13px;
+}
+.left .div1 .div1_1 input{
+	margin-left:20px;
+}
+.left .div1 .div1_1 select{
+	margin-left:140px;
+	font-size:13px;
+	background-color:#EFEFEF;
+	border:none;
+}
+.left .div1 .gg{
+	display:inline-block;
+	margin-top:430px;
+	margin-left:130px;
+	margin-bottom:20px;
+}
+.left .div1 .gg1{
+	display:inline-block;
+	border:1px solid #666;
+	width:20px;
+	text-align:center;
+}
+.left .div1 .last{
+	width:260px;
+	border:none;
+	background-color: #F4F7F4;
+	height:50px;
+	font-size:20px;
+	background-image:url(add.png);
+	background-repeat:no-repeat;
+	background-position:70px 16px;
+	background-size:18px;
+	margin-left:20px;
+}
+.left .div1 .last:hover{
+	background-color:#F0FFFE;
+}
+/*right*/
+.left .div2{
+	width:620px;
+	height:650px;  	
+	border:1px solid #E4E4E4;
+	float:left;
+	margin-left:25px;
+}
+.left .div2 .span1{
+	height:50px;
+	width:570px;
+	line-height:50px;
+	padding-left:50px;
+	display:inline-block;
+	background-color: #EAEAEA;
+	font-weight:bold;
+	font-size:18px;
+	background-image:url(mail.png);
+	background-repeat:no-repeat;
+	background-size:25px;
+	background-position:22px 15px;
+}
+.left .div2 .span2{
+	display:inline-block;
+	margin-left:50px;
+	margin-top:30px;
+}
+.left .div2 input{
+	width:500px;
+	height:30px;
+	border:1px solid #999;
+}
+.left .div2 textarea{
+	width:500px;
+	height:200px;
+	margin-top:30px;
+	border:1px solid #999;
+}
+.left .div2 textarea:hover,.left .div2 input:hover{
+	border:1px solid #00F;
+}
+#send{
+	width:90px;
+	height:30px;
+	margin-left:90px;
+	margin-top:20px;
+	background-color:#FE4516;
+	border:none;
+	font-size:20px;
+	color:white;
+}

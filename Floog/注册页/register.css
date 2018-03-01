@@ -1,0 +1,138 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	background-color:#FFF;
+	font-family:微软雅黑;
+}
+body{
+	width:1534px;
+	background-image:url(bg.jpg);
+}
+.head{
+	height:150px;
+	background-image:url(bg.jpg);
+}
+.head img{
+	width:100px;
+	margin:25px 0px 0px -150px;
+	-webkit-animation:img 5s;
+	animation-direction:alternate;
+	animation-fill-mode:forwards;	
+}
+@-webkit-keyframes img{
+	from{margin:25px 0px 0px -150px;}
+	to{margin:25px 0px 0px 750px;}
+}
+.body{
+	width:900px;
+	height:650px;
+	border:1px solid #E4E4E4;
+	margin:0 auto;
+	overflow:hidden;
+	background-color:#FBFBFB;
+	position:relative;
+}
+.body .left,.body .right{
+	float:left;
+	background-color:#FBFBFB;
+}
+.body .left{
+	margin-left:30px;
+	text-align:right;
+	line-height:70px;
+	color:#333;
+	background-color:#FBFBFB;
+}
+.body .left span{
+	background-color:#FBFBFB;
+}
+.body .right{
+	margin-left:20px;
+	line-height:70px;
+}
+.body .right span{
+	display:inline-block;
+	font-size:12px;
+	color:#727272;
+	background-color:#FBFBFB;
+}
+.body .right input{
+	width:400px;
+	height:30px;
+	border:1px solid #D8D8D8;
+}
+.body .right input:hover{
+	border:1px solid #73A4FF;
+}
+.body .title{
+	display:block;
+	margin:20px 0px 10px 30px;
+	font-size:25px;
+	width:800px;
+	border-bottom:1px dotted #666666;
+	padding-bottom:10px;
+	color:#3D9EA0;
+	background-color:#FBFBFB;
+}
+#check{
+	width:15px;
+	border:1px solid red;
+	position:absolute;
+	top:550px;
+	left:133px;
+}
+#getnum{
+	position:absolute;
+	left:133px;
+	top:500px;
+	background-color:#DBDAC4;
+}
+#getnum:hover{
+	border:none;
+	background-color:#CDD69E;
+}
+.body .agree{
+	font-size:12px;
+	color:#333;
+	display:inline-block;
+	margin-left:120px;
+	position:absolute;
+	left:30px;
+	top:550px;
+}
+.body .agree a{
+	color:#509AE4;
+}
+.body .register_button{
+	width:200px;
+	height:40px;
+	position:absolute;
+	top:580px;
+	left:310px;
+	font-size:21px;
+	border:none;
+	background-color:#E37200;
+	color:white;	
+}
+.body .register_button:hover{
+	background-color:#E16500;
+}
+/*底部*/
+.foot{
+	height: 30px;
+	line-height: 30px;
+	width: 1534;
+	border-top:1px solid #CCC;
+	border-bottom:1px solid #CCC;
+	padding:10px 0px 10px 0px;
+	text-align: center;
+	clear:both;
+	margin-top:50px;
+	font-size:13px;
+	color:#666;	
+	background-color:#F6F6F6;
+}
+.foot a{
+	text-decoration:none;
+	color:#666;
+}
